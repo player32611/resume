@@ -16,7 +16,7 @@ module.exports = {
   router:
     process.env.NODE_ENV === 'production'
       ? {
-          base: './'
+          base: '/resume/'
         }
       : {},
   head: {
